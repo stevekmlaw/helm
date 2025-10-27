@@ -3,7 +3,7 @@ replicas: 1
 image:
   repository: nginx
   tag: "1.25"
-port: 8080
+port: 80
 ingress:
   enabled: false
   host: ""
