@@ -58,3 +58,12 @@ Parent values.yaml
 ONLY parent values used
        ↓
 Subchart values.yaml IGNORED
+
+This command check what exact values will be deployed:
+helm get values microservices-demo -n microservices-demo --all
+ 
+*** sometimes -set parameter override the values in values.yaml. Need use --reset-valuse to reset it
+
+helm upgrade microservices-demo . \
+  -n microservices-demo \
+  --reset-values
