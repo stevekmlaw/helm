@@ -7,7 +7,7 @@ global:
 # Service configurations
 user-service:
   enabled: true
-  replicas: 1
+  replicas: 4
   image:
     repository: nginx  # Using nginx for demo
     tag: "1.25"
