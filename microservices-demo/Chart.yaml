@@ -7,10 +7,10 @@ appVersion: "2.0.0"
 
 dependencies:
   - name: user-service
-    version: "0.1.1"
+    version: "0.1.2"
     repository: "file://charts/user-service"
     condition: user-service.enabled
   - name: order-service
-    version: "0.2.1"
+    version: "0.2.2"
     repository: "file://charts/order-service"
     condition: order-service.enabled

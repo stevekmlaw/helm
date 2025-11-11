@@ -1,5 +1,5 @@
 enabled: true
-replicas: 1
+replicas: 3
 image:
   repository: nginx
   tag: "1.25"
@@ -7,4 +7,3 @@ port: 80
 ingress:
   enabled: false
   host: ""
-replicas: 3
