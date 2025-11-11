@@ -7,7 +7,7 @@ global:
 # Service configurations
 user-service:
   enabled: true
-  replicas: 2
+  replicas: 3
   image:
     repository: nginx  # Using nginx for demo
     tag: "1.25"
@@ -18,7 +18,7 @@ user-service:
 
 order-service:
   enabled: true
-  replicas: 2
+  replicas: 3
   image:
     repository: nginx  # Using nginx for demo
     tag: "1.25"
